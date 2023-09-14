@@ -1,4 +1,5 @@
-console.log('hello word')
-const name = 'Joao'
+console.log('Digite sua altura:')
 
-console.log(`Seu nome é:${name}`)
+let altura = 1.75
+
+console.log('Sua altura é: ' + altura)
