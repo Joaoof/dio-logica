@@ -1,3 +1,5 @@
 let pokemon = ["teste", "teste1", "teste2"]
 
-console.log(pokemon[1]) //selecionando qual posição do array desejo
+pokemon.pop()
+
+console.log(pokemon) //selecionando qual posição do array desejo
