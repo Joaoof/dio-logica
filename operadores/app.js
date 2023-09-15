@@ -1,8 +1,26 @@
 let precoProdutoNormal = 250
-let precoTaxado = 0.92 // o processo de taxa funciona dividindo 92 por 100 92/100 = 0.92
+let precoTaxado = 0.92  // o processo de taxa funciona dividindo 92 por 100 92/100 = 0.92
 let precoParcelado = 2
 
-let juros = precoProdutoNormal * precoTaxado 
-let valorTotalFazOL = precoProdutoNormal + juros
+function TaxaDoAmor(precoProdutoNormal, precoTaxado) {
+    let juros = precoProdutoNormal * precoTaxado 
+    let valorTotalFazOL = precoProdutoNormal + juros
+    
+    if ( valorTotalFazOL === 480) {
+        console.log('Valor taxado');
+        console.log('Você pode parcelar caso deseje:', valorTotalFazOL / precoParcelado, 'reais' )
+    return 
+    } else {
+        console.log('Você não foi taxado')
+   }
+    console.log('total de juros, faz o L:', valorTotalFazOL, 'reais')
 
-console.log('total de juros, faz o L:', valorTotalFazOL, 'reais')
+}
+
+TaxaDoAmor(precoProdutoNormal, precoTaxado)
+
+
+
+
+
+
