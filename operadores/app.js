@@ -6,10 +6,9 @@ function TaxaDoAmor(precoProdutoNormal, precoTaxado) {
     let juros = precoProdutoNormal * precoTaxado 
     let valorTotalFazOL = precoProdutoNormal + juros
     
-    if ( valorTotalFazOL === 480) {
-        console.log('Valor taxado');
+    if ( precoProdutoNormal != precoTaxado ) {
+        console.log('Seu valor foi taxado');
         console.log('Você pode parcelar caso deseje:', valorTotalFazOL / precoParcelado, 'reais' )
-    return 
     } else {
         console.log('Você não foi taxado')
    }
