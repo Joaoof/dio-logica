@@ -6,7 +6,7 @@ console.log(podeSair)
 
 let encontro = "2 pessoas"
 let local = "restaunte"
-
+2
 let vamosSair = (encontro == "2 pessoas" || local == restaurante)
 
 console.log(vamosSair)
