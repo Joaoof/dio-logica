@@ -1,6 +1,6 @@
 function TesteCPF(cpf) {
     cpf = cpf.replace(/[^\d]+/g,'');	
-    if (cpf.length != 11|| cpf === "00000000000" || cpf == "11111111111" || 
+    if (cpf.length != 11 || cpf === "00000000000" || cpf == "11111111111" || 
     cpf == "22222222222" || 
     cpf == "33333333333" || 
     cpf == "44444444444" || 
