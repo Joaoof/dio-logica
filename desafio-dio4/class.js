@@ -19,14 +19,7 @@ let description = {
         2: ["monge"],
         3: ["ninja"],
     },
-    ataque: {
-        0: ["usando magia"],
-        1: ["usando espada"],
-        2: ["usando artes marciais"],
-        3: ["usando shuriken"]
-    },
 }
-
     let mago = new hero()
     mago.atacar("magia")
 
