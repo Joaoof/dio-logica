@@ -6,21 +6,10 @@ class hero {
     }
     
     atacar(ataque) {
-        console.log(`o ${description.name} é ${description.tipo[0]} e atacou usando ${ataque}, com apenas a idade de ${description.age} anos`);
+        console.log(`o ${this.nome} é ${this.tipo} e atacou usando ${ataque}, com apenas a idade de ${this.idade} anos`);
     }
 }
-
-let description = {
-    name: "João",
-    age: 19,
-    tipo: {
-        0: ["mago"],
-        1: ["guerreiro"],
-        2: ["monge"],
-        3: ["ninja"],
-    },
-}
-    let mago = new hero()
+    let mago = new hero("João", 19, "mago")
     mago.atacar("magia")
 
 
